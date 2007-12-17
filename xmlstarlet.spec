@@ -12,7 +12,6 @@ Source:		http://xmlstar.sourceforge.net/downloads/%{name}-%{version}.tar.bz2
 URL:		http://xmlstar.sourceforge.net
 BuildRequires:	libxml2-devel
 BuildRequires:	libxslt-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Command Line XML Toolkit to query/edit/transform/check XML documents
