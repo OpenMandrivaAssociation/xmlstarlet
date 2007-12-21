@@ -21,7 +21,8 @@ Command Line XML Toolkit to query/edit/transform/check XML documents
 
 %build
 autoheader
-%configure 
+%configure2_5x --with-libxml-libs-prefix=%{_libdir} \
+               --with-libxslt-libs-prefix=%{_libdir}
 %make CFLAGS="$CFLAGS" LDFLAGS="-lgcrypt"
 
 %install
