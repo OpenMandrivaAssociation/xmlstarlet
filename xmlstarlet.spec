@@ -10,6 +10,11 @@ License:	MIT
 Group:		File tools
 Source:		http://xmlstar.sourceforge.net/downloads/%{name}-%{version}.tar.bz2
 URL:		https://xmlstar.sourceforge.net
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libxml2-devel
 BuildRequires:	libxslt-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}
